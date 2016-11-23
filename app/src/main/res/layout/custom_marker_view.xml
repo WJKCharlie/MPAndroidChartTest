@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.charlie.mpandroidcharttest.common.ArrowTextView
+        android:id="@+id/tvContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="16px"
+        android:paddingRight="5px"
+        android:paddingLeft="5px"
+        android:text=""
+        android:textSize="36px"
+        android:textColor="@color/description"
+        android:maxLines="1"
+        android:ellipsize="end"
+        app:bg="@color/linefill"
+        app:radius="5px"/>
+</LinearLayout>
